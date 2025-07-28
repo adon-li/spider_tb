@@ -5,7 +5,7 @@ import sqlalchemy as sa
 def get_engine(data_source):
     try:
         if data_source['engine'] == 'doris':
-            # 'mysql+pymysql://admin:R5*L2&bmpnW3AK8FPgD$@106.15.24.126:9030/dbcenter'
+            # 'mysql+pymysql://admin:xxxxxxxxxxxxxxxx@xxx.xxx.xxx.xxx:xxxx/dbcenter'
             return sa.create_engine('mysql+pymysql://{user}:{passwd}@{host}:{port}/{db}'
                                     .format(user=data_source['user'],
                                             passwd=data_source['passwd'],
