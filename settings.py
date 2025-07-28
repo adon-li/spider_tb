@@ -24,9 +24,9 @@ USER_AGENT = [
 ]
 
 # js_server 地址
-# NODEJS_SERVER = 'http://192.168.99.100:3000'  # 本地
+# NODEJS_SERVER = 'http://xxxxxxxxxx:3000'  # 本地
 # NODEJS_SERVER = 'http://localhost:3000'  # 本地
-NODEJS_SERVER = 'http://bi.hmcloud.com.cn/spider'  # spider
+NODEJS_SERVER = 'http://xxxxxxxxxx.cn/spider'  # spider
 
 
 if platform.system() == 'Windows':
